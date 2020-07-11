@@ -1,5 +1,8 @@
 # ZSH config
 
+grep -v '^#' /etc/vt/gruvbox.vt | setvtrgb -
+
+
 # --- [ Plugins ] ---
 source /usr/share/zsh/share/antigen.zsh
 #antigen bundle zsh-users/zsh-autosuggestions
@@ -117,10 +120,6 @@ alias vim='nvim'
 alias -s c='nvim'
 alias -s h='nvim'
 
-# --- [ Raspberry Server ] ---
-RASPPASSWD='34gf45jk2lk3'
-alias rasphome='ssh -p 2222 asmazovec@46.161.155.209'
-alias rasproot='echo $RASPPASSWD & ssh -p 2222 root@46.161.155.209'
 
 ex () {
  if [ -f $1 ] ; then

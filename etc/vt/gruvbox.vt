@@ -1,0 +1,16 @@
+#Gruvbox Black Theme for Consoles
+#
+#Console colors are set by the 'setvtrgb' command which takes as argument a
+#file of exactly three lines of text. These lines are the 0..255 values for
+#
+#r: black, red, green, yellow, blue, magenta, cyan, white, b_black, b_red, b_green, b_yellow, b_blue, b_magenta, b_cyan, b_,white 
+#g: black, red, green, yellow, blue, magenta, cyan, white, b_black, b_red, b_green, b_yellow, b_blue, b_magenta, b_cyan, b_,white 
+#b: black, red, green, yellow, blue, magenta, cyan, white, b_black, b_red, b_green, b_yellow, b_blue, b_magenta, b_cyan, b_,white 
+#
+#run the following cmd line in a console
+#
+#grep -v '^#' gruvbox.vt | setvtrgb -
+#
+0,204,152,215,69,177,104,168,146,251,184,250,131,211,142,235
+0,36,151,153,133,98,157,153,131,73,187,189,165,134,192,219
+0,29,26,33,136,134,106,132,116,52,38,47,152,155,124,178
