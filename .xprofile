@@ -1,5 +1,4 @@
-setxkbmap -layout 'us,ru' -option 'grp:ctrl_shift_toggle'
-
+setxkbmap -layout 'us,ru' -option 'grp:ctrl_shift_toggle' &
 exec picom --inactive-dim 0.4 --no-fading-openclose --inactive-dim-fixed -fGCb --vsync &
 exec $HOME/.config/wallpaper/.fehbg &
-exec xmonad
+

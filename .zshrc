@@ -1,6 +1,6 @@
 # ZSH config
 
-grep -v '^#' /etc/vt/gruvbox.vt | setvtrgb -
+# setvtrgb .config/vt/gruvbox.vt
 
 
 # --- [ Plugins ] ---
@@ -179,4 +179,4 @@ zle -N zle-line-finish
 
 export KEYTIMEOUT=1
 
-PROMPT='%B%F{red}%n%f%b ${vim_mode} %~ %B%(!.#.>)%b '
+PROMPT='%B%F{red}%n%f%b@%m ${vim_mode} %~ %B%(!.#.>)%b '
